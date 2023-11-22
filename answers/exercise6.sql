@@ -1,5 +1,5 @@
 SELECT COUNT(StudentID), Country
 FROM Students
 GROUP BY Country
-ORDER BY COUNT(StudentID) DESC
-HAVING COUNT(StudentID) > 10;
+HAVING COUNT(StudentID) > 10
+ORDER BY COUNT(StudentID) DESC;
